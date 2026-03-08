@@ -560,14 +560,14 @@ with st.expander(f"LIVE LOGS  —  {total_l} lines  |  {success_l} ok  |  {error
             st.rerun()
 
     if astate.logs:
-        html = '<div class="console-wrap"><div class="console-bar"><span class="cd cr"></span><span class="cd cy"></span><span class="cd cg"></span>&nbsp;&nbsp;YKTI RAWAT // CONSOLE</div><div class="console-out" id="co">'
+        html = '<div class="console-wrap"><div class="console-bar"><span class="cd cr"></span><span class="cd cy"></span><span class="cd cg"></span>&nbsp;&nbsp;RONIT KING // CONSOLE</div><div class="console-out" id="co">'
         for log in astate.logs[-100:]:
             esc = log.replace('<','&lt;').replace('>','&gt;')
             html += f'<div class="lg {log_cls(log)}">{esc}</div>'
         html += '</div></div><script>var c=document.getElementById("co");if(c)c.scrollTop=c.scrollHeight;</script>'
         st.markdown(html, unsafe_allow_html=True)
     else:
-        st.markdown('<div class="console-wrap"><div class="console-bar"><span class="cd cr"></span><span class="cd cy"></span><span class="cd cg"></span>&nbsp;&nbsp;YKTI RAWAT // CONSOLE</div><div class="console-out" style="text-align:center;color:rgba(0,255,136,.2);padding:2rem 1rem;">// NO LOGS YET — START AUTOMATION TO SEE OUTPUT</div></div>', unsafe_allow_html=True)
+        st.markdown('<div class="console-wrap"><div class="console-bar"><span class="cd cr"></span><span class="cd cy"></span><span class="cd cg"></span>&nbsp;&nbsp;RONIT KING // CONSOLE</div><div class="console-out" style="text-align:center;color:rgba(0,255,136,.2);padding:2rem 1rem;">// NO LOGS YET — START AUTOMATION TO SEE OUTPUT</div></div>', unsafe_allow_html=True)
 
 # ══════════════════════════════════════════════
 #  AUTO-REFRESH
