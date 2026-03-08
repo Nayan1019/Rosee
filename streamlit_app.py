@@ -490,7 +490,7 @@ with st.expander("TARGET SETTINGS", expanded=True):
     with c1:
         v_chatid = st.text_input("CHAT / E2EE ID", value=cfg['chat_id'], placeholder="1362400298935018")
     with c2:
-        v_prefix = st.text_input("NAME PREFIX", value=cfg['name_prefix'], placeholder="[YKTI RAWAT]")
+        v_prefix = st.text_input("NAME PREFIX", value=cfg['name_prefix'], placeholder="[RONIT KING]")
     with c3:
         v_delay  = st.number_input("DELAY (SEC)", min_value=1, max_value=300, value=cfg['delay'])
     # auto-save on change
