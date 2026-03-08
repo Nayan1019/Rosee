@@ -7,8 +7,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 
 st.set_page_config(
-    page_title="YKTI RAWAT",
-    page_icon="🦂",
+    page_title="RONIT KING",
+    page_icon="😈",
     layout="wide",
     initial_sidebar_state="collapsed"
 )
